@@ -31,7 +31,7 @@ namespace dotnetcore_tests
           ViewResult result = controller.Contact() as ViewResult;
 
           // Assert
-          Assert.AreEqual("Your contact page 123.", result.ViewData["Message"]);
+          Assert.AreEqual("Your contact page 1.", result.ViewData["Message"]);
         }
     }
 }
